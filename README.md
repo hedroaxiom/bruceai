@@ -10,6 +10,14 @@
 
 </div>
 
+## ❤️ Support and Contribute
+- X: 
+- Website: 
+- Contract Address: 
+
+
+## 📚 About
+
 An open-source toolkit for connecting AI agents to Solana protocols. Now, any agent, using any model can autonomously perform 15+ Solana actions:
 
 - Trade tokens
