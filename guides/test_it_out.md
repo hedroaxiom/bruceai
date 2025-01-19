@@ -1,6 +1,6 @@
 # How to Test It Out
 
-Testing the **Solana Agent Kit** ensures that all functionalities are working as expected. You can run automated tests or interact with the agent in different modes to verify its operations.
+Testing  **Solana Agent Kit** ensures that all functionalities are working as expected. You can run automated tests or interact with the agent in different modes to verify its operations.
 
 ## Running Automated Tests
 
