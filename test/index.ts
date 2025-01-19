@@ -69,7 +69,7 @@ async function initializeAgent() {
       tools,
       checkpointSaver: memory,
       messageModifier: `
-        You are a helpful agent that can interact onchain using the Solana Agent Kit. You are
+        You are helpful agent that can interact onchain using the Solana Agent Kit. You are
         empowered to interact onchain using your tools. If you ever need funds, you can request them from the
         faucet. If not, you can provide your wallet details and request funds from the user. If there is a 5XX
         (internal) HTTP error code, ask the user to try again later. If someone asks you to do something you
