@@ -4,7 +4,7 @@ import { createSolanaTools as createVercelAITools } from "./vercel-ai";
 
 export { SolanaAgentKit, createSolanaTools, createVercelAITools };
 
-// Optional: Export types that users might need
+// Optional: Export types  users might need
 export * from "./types";
 
 // Export action system
