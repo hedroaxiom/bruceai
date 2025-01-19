@@ -1,6 +1,6 @@
 <div align="center">
 
-# Solana Agent Kit
+# Helix OS: Solana Agent Kit
 
 ![Solana Agent Kit Cover 1 (3)](https://github.com/user-attachments/assets/cfa380f6-79d9-474d-9852-3e1976c6de70)
 
@@ -21,9 +21,6 @@ An open-source toolkit for connecting AI agents to Solana protocols. Now, any ag
 - And more...
 
 Anyone - whether an SF-based AI researcher or a crypto-native builder - can bring their AI agents trained with any model and seamlessly integrate with Solana.
-
-[![Run on Repl.it](https://replit.com/badge/github/sendaifun/solana-agent-kit)](https://replit.com/@sendaifun/Solana-Agent-Kit)
-> Replit template created by [Arpit Singh](https://github.com/The-x-35)
 
 ## 🔧 Core Blockchain Features
 
@@ -93,7 +90,7 @@ Anyone - whether an SF-based AI researcher or a crypto-native builder - can brin
   - Automated decision-making capabilities
 
 ## 📃 Documentation
-You can view the full documentation of the kit at [docs.solanaagentkit.xyz](https://docs.solanaagentkit.xyz)
+You can view the full documentation of the kit in our docs
 
 ## 📦 Installation
 
@@ -519,7 +516,6 @@ The repository includes an advanced example of building a multi-agent system usi
 - Fully typed TypeScript implementation
 - Environment-based configuration
 
-Check out the [LangGraph example](examples/agent-kit-langgraph) for a complete implementation of an advanced Solana agent system.
 
 ## Dependencies
 
@@ -537,17 +533,6 @@ The toolkit relies on several key Solana and Metaplex libraries:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-Refer to [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on how to contribute to this project.
-
-## Contributors
-
-<a href="https://github.com/sendaifun/solana-agent-kit/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=sendaifun/solana-agent-kit" />
-</a>
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=sendaifun/solana-agent-kit&type=Date)](https://star-history.com/#sendaifun/solana-agent-kit&Date)
 
 ## License
 
@@ -555,9 +540,7 @@ Apache-2 License
 
 ## Funding
 
-If you wanna give back any tokens or donations to the OSS community -- The Public Solana Agent Kit Treasury Address:
-
-Solana Network : EKHTbXpsm6YDgJzMkFxNU1LNXeWcUW7Ezf8mjUNQQ4Pa
+Support by using our Solana CA: 
 
 ## Security
 
