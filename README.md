@@ -11,8 +11,8 @@
 </div>
 
 ## ❤️ Support and Contribute
-- X: https://x.com/os_helix
-- Website: 
+- X: https://www.x.com/os_helix
+- Website: https://www.HelixOs.xyz
 - Contract Address: 
 
 
