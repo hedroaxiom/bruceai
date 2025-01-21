@@ -4,7 +4,6 @@
 ![IMG_3731](https://github.com/user-attachments/assets/9699773b-d347-42bc-a67f-b84cf6b04f6f)
 
 
-![NPM Downloads](https://img.shields.io/npm/dm/solana-agent-kit?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/sendaifun/solana-agent-kit?style=for-the-badge)
 ![GitHub License](https://img.shields.io/github/license/sendaifun/solana-agent-kit?style=for-the-badge)
 
