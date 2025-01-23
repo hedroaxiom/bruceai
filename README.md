@@ -10,7 +10,7 @@
 </div>
 
 ## ❤️ Support and Contribute
-- X: https://www.x.com/os_helix
+- X: https://x.com/helix_0s/
 - Website: https://www.HelixOs.xyz
 - Contract Address: 2BhqFFdLyRys8fc3URwZbSod6Q7ELNaF5RLTJ5B1pump
 
