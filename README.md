@@ -6,15 +6,12 @@
 
 
 
-<h1 align="center">NextChat (ChatGPT Next Web)</h1>
+<h1 align="center">Bruce AI (powered by ChatGPT)</h1>
 
 English / [简体中文](./README_CN.md)
 
-<a href="https://trendshift.io/repositories/5973" target="_blank"><img src="https://trendshift.io/api/badge/repositories/5973" alt="ChatGPTNextWeb%2FChatGPT-Next-Web | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-
-
-One-Click to get a well-designed cross-platform ChatGPT web UI, with Claude, GPT4 & Gemini Pro support.
+One-Click to get a well-designed cross-platform ChatGPT Telegram UI, with Claude, GPT4 & Gemini Pro support.
 
 [![Saas][Saas-image]][saas-url]
 [![Web][Web-image]][web-url]
@@ -32,13 +29,10 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with Claude, GPT
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
 [Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
 
-[<img src="https://vercel.com/button" alt="Deploy on Vercel" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA)  [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web) [<img src="https://img.shields.io/badge/BT_Deploy-Install-20a53a" alt="BT Deply Install" height="30">](https://www.bt.cn/new/download.html)
-
-[<img src="https://github.com/user-attachments/assets/903482d4-3e87-4134-9af1-f2588fa90659" height="60" width="288" >](https://monica.im/?utm=nxcrp)
 
 </div>
 
-## 🫣 NextChat Support MCP  ! 
+## 🫣 BruceAI Support MCP  ! 
 > Before build, please set env ENABLE_MCP=true
 
 <img src="https://github.com/user-attachments/assets/d8851f40-4e36-4335-b1a4-ec1e11488c7e"/>
@@ -55,7 +49,7 @@ Meeting Your Company's Privatization and Customization Deployment Requirements:
 - **Private Deployment**: Enterprise-level private deployment supporting various mainstream private cloud solutions, ensuring data security and privacy protection.
 - **Continuous Updates**: Ongoing updates and upgrades in cutting-edge capabilities like multimodal AI, ensuring consistent innovation and advancement.
 
-For enterprise inquiries, please contact: **business@nextchat.dev**
+For enterprise inquiries, please contact: **business@bruceai.dev**
 
 ## Screenshots
 
