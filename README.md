@@ -6,6 +6,7 @@
 
 
 
+
 <h1 align="center">Bruce AI (powered by ChatGPT)</h1>
 
 English / [简体中文](./README_CN.md)
