@@ -1,554 +1,459 @@
 <div align="center">
 
-# Helix OS: Solana Agent Kit
-![IMG_3731](https://github.com/user-attachments/assets/9699773b-d347-42bc-a67f-b84cf6b04f6f)
+<a href='https://nextchat.dev/chat'>
+  <img src="https://github.com/user-attachments/assets/287c510f-f508-478e-ade3-54d30453dc18" width="1000" alt="icon"/>
+</a>
 
 
-![GitHub forks](https://img.shields.io/github/forks/sendaifun/solana-agent-kit?style=for-the-badge)
-![GitHub License](https://img.shields.io/github/license/sendaifun/solana-agent-kit?style=for-the-badge)
+
+<h1 align="center">NextChat (ChatGPT Next Web)</h1>
+
+English / [简体中文](./README_CN.md)
+
+<a href="https://trendshift.io/repositories/5973" target="_blank"><img src="https://trendshift.io/api/badge/repositories/5973" alt="ChatGPTNextWeb%2FChatGPT-Next-Web | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
+
+
+One-Click to get a well-designed cross-platform ChatGPT web UI, with Claude, GPT4 & Gemini Pro support.
+
+[![Saas][Saas-image]][saas-url]
+[![Web][Web-image]][web-url]
+[![Windows][Windows-image]][download-url]
+[![MacOS][MacOS-image]][download-url]
+[![Linux][Linux-image]][download-url]
+
+[NextChatAI](https://nextchat.dev/chat?utm_source=readme) / [Web App Demo](https://app.nextchat.dev) / [Desktop App](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Discord](https://discord.gg/YCkeafCafC) / [Enterprise Edition](#enterprise-edition) / [Twitter](https://twitter.com/NextChatDev)
+
+
+[saas-url]: https://nextchat.dev/chat?utm_source=readme
+[saas-image]: https://img.shields.io/badge/NextChat-Saas-green?logo=microsoftedge
+[web-url]: https://app.nextchat.dev/
+[download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
+[Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
+[Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
+[MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
+[Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
+
+[<img src="https://vercel.com/button" alt="Deploy on Vercel" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA)  [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web) [<img src="https://img.shields.io/badge/BT_Deploy-Install-20a53a" alt="BT Deply Install" height="30">](https://www.bt.cn/new/download.html)
+
+[<img src="https://github.com/user-attachments/assets/903482d4-3e87-4134-9af1-f2588fa90659" height="60" width="288" >](https://monica.im/?utm=nxcrp)
 
 </div>
 
-## ❤️ Support and Contribute
-- X: https://x.com/helix_0s/
-- Website: https://www.HelixOs.xyz
-- Contract Address: 6VRy4fQU92PptFtvaspVKFZJWnyRrWcZAhQeJgb3pump
+## 🫣 NextChat Support MCP  ! 
+> Before build, please set env ENABLE_MCP=true
+
+<img src="https://github.com/user-attachments/assets/d8851f40-4e36-4335-b1a4-ec1e11488c7e"/>
 
 
-## 📚 About
+## Enterprise Edition
 
-An open-source toolkit for connecting AI agents to Solana protocols. Now, any agent, using any model can autonomously perform 15+ Solana actions:
+Meeting Your Company's Privatization and Customization Deployment Requirements:
+- **Brand Customization**: Tailored VI/UI to seamlessly align with your corporate brand image.
+- **Resource Integration**: Unified configuration and management of dozens of AI resources by company administrators, ready for use by team members.
+- **Permission Control**: Clearly defined member permissions, resource permissions, and knowledge base permissions, all controlled via a corporate-grade Admin Panel.
+- **Knowledge Integration**: Combining your internal knowledge base with AI capabilities, making it more relevant to your company's specific business needs compared to general AI.
+- **Security Auditing**: Automatically intercept sensitive inquiries and trace all historical conversation records, ensuring AI adherence to corporate information security standards.
+- **Private Deployment**: Enterprise-level private deployment supporting various mainstream private cloud solutions, ensuring data security and privacy protection.
+- **Continuous Updates**: Ongoing updates and upgrades in cutting-edge capabilities like multimodal AI, ensuring consistent innovation and advancement.
 
-- Trade tokens
-- Launch new tokens
-- Lend assets
-- Send compressed airdrops
-- Execute blinks
-- Launch tokens on AMMs
-- And more...
+For enterprise inquiries, please contact: **business@nextchat.dev**
 
-Anyone - whether an SF-based AI researcher or a crypto-native builder - can bring their AI agents trained with any model and seamlessly integrate with Solana.
+## Screenshots
 
-## 🔧 Core Blockchain Features
+![Settings](./docs/images/settings.png)
 
-- **Token Operations**
-  - Deploy SPL tokens by Metaplex
-  - Transfer assets
-  - Balance checks
-  - Stake SOL
-  - Zk compressed Airdrop by Light Protocol and Helius
-- **NFTs on 3.Land**
-  - Create your own collection
-  - NFT creation and automatic listing on 3.land
-  - List your NFT for sale in any SPL token
-- **NFT Management via Metaplex**
-  - Collection deployment
-  - NFT minting
-  - Metadata management
-  - Royalty configuration
+![More](./docs/images/more.png)
 
-- **DeFi Integration**
-  - Jupiter Exchange swaps
-  - Launch on Pump via PumpPortal
-  - Raydium pool creation (CPMM, CLMM, AMMv4)
-  - Orca Whirlpool integration
-  - Manifest market creation, and limit orders
-  - Meteora Dynamic AMM, DLMM Pool, and Alpha Vault
-  - Openbook market creation
-  - Register and Resolve SNS
-  - Jito Bundles
-  - Pyth Price feeds for fetching Asset Prices
-  - Register/resolve Alldomains
-  - Perpetuals Trading with Adrena Protocol
-  - Drift Vaults, Perps, Lending and Borrowing
 
-- **Solana Blinks**
-   - Lending by Lulo (Best APR for USDC)
-   - Send Arcade Games
-   - JupSOL staking
-   - Solayer SOL (sSOL)staking
+## Features
 
-- **Non-Financial Actions**
-  - Gib Work for registering bounties
+- **Deploy for free with one-click** on Vercel in under 1 minute
+- Compact client (~5MB) on Linux/Windows/MacOS, [download it now](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
+- Fully compatible with self-deployed LLMs, recommended for use with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) or [LocalAI](https://github.com/go-skynet/LocalAI)
+- Privacy first, all data is stored locally in the browser
+- Markdown support: LaTex, mermaid, code highlight, etc.
+- Responsive design, dark mode and PWA
+- Fast first screen loading speed (~100kb), support streaming response
+- New in v2: create, share and debug your chat tools with prompt templates (mask)
+- Awesome prompts powered by [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) and [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
+- Automatically compresses chat history to support long conversations while also saving your tokens
+- I18n: English, 简体中文, 繁体中文, 日本語, Français, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어, Indonesia
 
-## 🤖 AI Integration Features
+<div align="center">
+   
+![主界面](./docs/images/cover.png)
 
-- **LangChain Integration**
-  - Ready-to-use LangChain tools for blockchain operations
-  - Autonomous agent support with React framework
-  - Memory management for persistent interactions
-  - Streaming responses for real-time feedback
+</div>
 
-- **Vercel AI SDK Integration**
-  - Vercel AI SDK for AI agent integration
-  - Framework agnostic support
-  - Quick and easy toolkit setup
+## Roadmap
 
-- **Autonomous Modes**
-  - Interactive chat mode for guided operations
-  - Autonomous mode for independent agent actions
-  - Configurable action intervals
-  - Built-in error handling and recovery
+- [x] System Prompt: pin a user defined prompt as system prompt [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
+- [x] User Prompt: user can edit and save custom prompts to prompt list
+- [x] Prompt Template: create a new chat with pre-defined in-context prompts [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
+- [x] Share as image, share to ShareGPT [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
+- [x] Desktop App with tauri
+- [x] Self-host Model: Fully compatible with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner), as well as server deployment of [LocalAI](https://github.com/go-skynet/LocalAI): llama/gpt4all/rwkv/vicuna/koala/gpt4all-j/cerebras/falcon/dolly etc.
+- [x] Artifacts: Easily preview, copy and share generated content/webpages through a separate window [#5092](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/pull/5092)
+- [x] Plugins: support network search, calculator, any other apis etc. [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
+  - [x] network search, calculator, any other apis etc. [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
+- [x] Supports Realtime Chat [#5672](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5672)
+- [ ] local knowledge base
 
-- **AI Tools**
-  - DALL-E integration for NFT artwork generation
-  - Natural language processing for blockchain commands
-  - Price feed integration for market analysis
-  - Automated decision-making capabilities
+## What's New
+- 🚀 v2.15.8 Now supports Realtime Chat [#5672](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5672)
+- 🚀 v2.15.4 The Application supports using Tauri fetch LLM API, MORE SECURITY! [#5379](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5379)
+- 🚀 v2.15.0 Now supports Plugins! Read this: [NextChat-Awesome-Plugins](https://github.com/ChatGPTNextWeb/NextChat-Awesome-Plugins)
+- 🚀 v2.14.0 Now supports  Artifacts & SD 
+- 🚀 v2.10.1 support Google Gemini Pro model.
+- 🚀 v2.9.11 you can use azure endpoint now.
+- 🚀 v2.8 now we have a client that runs across all platforms!
+- 🚀 v2.7 let's share conversations as image, or share to ShareGPT!
+- 🚀 v2.0 is released, now you can create prompt templates, turn your ideas into reality! Read this: [ChatGPT Prompt Engineering Tips: Zero, One and Few Shot Prompting](https://www.allabtai.com/prompt-engineering-tips-zero-one-and-few-shot-prompting/).
 
-## 📃 Documentation
-You can view the full documentation of the kit in our docs
+## Get Started
 
-## 📦 Installation
+1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
+2. Click
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web), remember that `CODE` is your page password;
+3. Enjoy :)
 
-```bash
-npm install solana-agent-kit
-```
+## FAQ
 
-## Quick Start
+[English > FAQ](./docs/faq-en.md)
 
-```typescript
-import { SolanaAgentKit, createSolanaTools } from "solana-agent-kit";
+## Keep Updated
 
-// Initialize with private key and optional RPC URL
-const agent = new SolanaAgentKit(
-  "your-wallet-private-key-as-base58",
-  "https://api.mainnet-beta.solana.com",
-  "your-openai-api-key"
-);
+If you have deployed your own project with just one click following the steps above, you may encounter the issue of "Updates Available" constantly showing up. This is because Vercel will create a new project for you by default instead of forking this project, resulting in the inability to detect updates correctly.
 
-// Create LangChain tools
-const tools = createSolanaTools(agent);
-```
+We recommend that you follow the steps below to re-deploy:
 
-## Usage Examples
+- Delete the original repository;
+- Use the fork button in the upper right corner of the page to fork this project;
+- Choose and deploy in Vercel again, [please see the detailed tutorial](./docs/vercel-cn.md).
 
-### Deploy a New Token
+### Enable Automatic Updates
 
-```typescript
-const result = await agent.deployToken(
-  "my ai token", // name
-  "uri", // uri
-  "token", // symbol
-  9, // decimals
-  1000000 // initial supply
-);
+> If you encounter a failure of Upstream Sync execution, please [manually update code](./README.md#manually-updating-code).
 
-console.log("Token Mint Address:", result.mint.toString());
-```
-### Create NFT Collection on 3Land
-```typescript
-const isDevnet = true; // (Optional) if not present TX takes place in Mainnet
+After forking the project, due to the limitations imposed by GitHub, you need to manually enable Workflows and Upstream Sync Action on the Actions page of the forked project. Once enabled, automatic updates will be scheduled every hour:
 
- const collectionOpts: CreateCollectionOptions = {
-    collectionName: "",
-    collectionSymbol: "",
-    collectionDescription: "",
-    mainImageUrl: ""
-  };
+![Automatic Updates](./docs/images/enable-actions.jpg)
 
-const result = await agent.create3LandCollection(
-      collectionOpts,
-      isDevnet, // (Optional) if not present TX takes place in Mainnet
-    );
-```
+![Enable Automatic Updates](./docs/images/enable-actions-sync.jpg)
 
-### Create NFT on 3Land
-When creating an NFT using 3Land's tool, it automatically goes for sale on 3.land website
-```typescript
-const isDevnet = true; // (Optional) if not present TX takes place in Mainnet
-const withPool = true; // (Optional) only present if NFT will be created with a Liquidity Pool for a specific SPL token
-const collectionAccount = ""; //hash for the collection
-const createItemOptions: CreateSingleOptions = {
-  itemName: "",
-  sellerFee: 500, //5%
-  itemAmount: 100, //total items to be created
-  itemSymbol: "",
-  itemDescription: "",
-  traits: [
-    { trait_type: "", value: "" },
-  ],
-  price: 0, //100000000 == 0.1 sol, can be set to 0 for a free mint
-  splHash: "", //present if listing is on a specific SPL token, if not present sale will be on $SOL, must be present if "withPool" is true
-  poolName: "", // Only present if "withPool" is true
-  mainImageUrl: "",
-};
-const result = await agent.create3LandNft(
-  collectionAccount,
-  createItemOptions,
-  isDevnet, // (Optional) if not present TX takes place in Mainnet
-  withPool
-);
+### Manually Updating Code
+
+If you want to update instantly, you can check out the [GitHub documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to learn how to synchronize a forked project with upstream code.
+
+You can star or watch this project or follow author to get release notifications in time.
+
+## Access Password
+
+This project provides limited access control. Please add an environment variable named `CODE` on the vercel environment variables page. The value should be passwords separated by comma like this:
 
 ```
-
-
-### Create NFT Collection
-
-```typescript
-const collection = await agent.deployCollection({
-  name: "My NFT Collection",
-  uri: "https://arweave.net/metadata.json",
-  royaltyBasisPoints: 500, // 5%
-  creators: [
-    {
-      address: "creator-wallet-address",
-      percentage: 100,
-    },
-  ],
-});
+code1,code2,code3
 ```
 
-### Swap Tokens
+After adding or modifying this environment variable, please redeploy the project for the changes to take effect.
 
-```typescript
-import { PublicKey } from "@solana/web3.js";
+## Environment Variables
 
-const signature = await agent.trade(
-  new PublicKey("target-token-mint"),
-  100, // amount
-  new PublicKey("source-token-mint"),
-  300 // 3% slippage
-);
+### `CODE` (optional)
+
+Access password, separated by comma.
+
+### `OPENAI_API_KEY` (required)
+
+Your openai api key, join multiple api keys with comma.
+
+### `BASE_URL` (optional)
+
+> Default: `https://api.openai.com`
+
+> Examples: `http://your-openai-proxy.com`
+
+Override openai api request base url.
+
+### `OPENAI_ORG_ID` (optional)
+
+Specify OpenAI organization ID.
+
+### `AZURE_URL` (optional)
+
+> Example: https://{azure-resource-url}/openai
+
+Azure deploy url.
+
+### `AZURE_API_KEY` (optional)
+
+Azure Api Key.
+
+### `AZURE_API_VERSION` (optional)
+
+Azure Api Version, find it at [Azure Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions).
+
+### `GOOGLE_API_KEY` (optional)
+
+Google Gemini Pro Api Key.
+
+### `GOOGLE_URL` (optional)
+
+Google Gemini Pro Api Url.
+
+### `ANTHROPIC_API_KEY` (optional)
+
+anthropic claude Api Key.
+
+### `ANTHROPIC_API_VERSION` (optional)
+
+anthropic claude Api version.
+
+### `ANTHROPIC_URL` (optional)
+
+anthropic claude Api Url.
+
+### `BAIDU_API_KEY` (optional)
+
+Baidu Api Key.
+
+### `BAIDU_SECRET_KEY` (optional)
+
+Baidu Secret Key.
+
+### `BAIDU_URL` (optional)
+
+Baidu Api Url.
+
+### `BYTEDANCE_API_KEY` (optional)
+
+ByteDance Api Key.
+
+### `BYTEDANCE_URL` (optional)
+
+ByteDance Api Url.
+
+### `ALIBABA_API_KEY` (optional)
+
+Alibaba Cloud Api Key.
+
+### `ALIBABA_URL` (optional)
+
+Alibaba Cloud Api Url.
+
+### `IFLYTEK_URL` (Optional)
+
+iflytek Api Url.
+
+### `IFLYTEK_API_KEY` (Optional)
+
+iflytek Api Key.
+
+### `IFLYTEK_API_SECRET` (Optional)
+
+iflytek Api Secret.
+
+### `CHATGLM_API_KEY` (optional)
+
+ChatGLM Api Key.
+
+### `CHATGLM_URL` (optional)
+
+ChatGLM Api Url.
+
+### `DEEPSEEK_API_KEY` (optional)
+
+DeepSeek Api Key.
+
+### `DEEPSEEK_URL` (optional)
+
+DeepSeek Api Url.
+
+### `HIDE_USER_API_KEY` (optional)
+
+> Default: Empty
+
+If you do not want users to input their own API key, set this value to 1.
+
+### `DISABLE_GPT4` (optional)
+
+> Default: Empty
+
+If you do not want users to use GPT-4, set this value to 1.
+
+### `ENABLE_BALANCE_QUERY` (optional)
+
+> Default: Empty
+
+If you do want users to query balance, set this value to 1.
+
+### `DISABLE_FAST_LINK` (optional)
+
+> Default: Empty
+
+If you want to disable parse settings from url, set this to 1.
+
+### `CUSTOM_MODELS` (optional)
+
+> Default: Empty
+> Example: `+llama,+claude-2,-gpt-3.5-turbo,gpt-4-1106-preview=gpt-4-turbo` means add `llama, claude-2` to model list, and remove `gpt-3.5-turbo` from list, and display `gpt-4-1106-preview` as `gpt-4-turbo`.
+
+To control custom models, use `+` to add a custom model, use `-` to hide a model, use `name=displayName` to customize model name, separated by comma.
+
+User `-all` to disable all default models, `+all` to enable all default models.
+
+For Azure: use `modelName@Azure=deploymentName` to customize model name and deployment name.
+> Example: `+gpt-3.5-turbo@Azure=gpt35` will show option `gpt35(Azure)` in model list.
+> If you only can use Azure model, `-all,+gpt-3.5-turbo@Azure=gpt35` will `gpt35(Azure)` the only option in model list.
+
+For ByteDance: use `modelName@bytedance=deploymentName` to customize model name and deployment name.
+> Example: `+Doubao-lite-4k@bytedance=ep-xxxxx-xxx` will show option `Doubao-lite-4k(ByteDance)` in model list.
+
+### `DEFAULT_MODEL` （optional）
+
+Change default model
+
+### `VISION_MODELS` (optional)
+
+> Default: Empty
+> Example: `gpt-4-vision,claude-3-opus,my-custom-model` means add vision capabilities to these models in addition to the default pattern matches (which detect models containing keywords like "vision", "claude-3", "gemini-1.5", etc).
+
+Add additional models to have vision capabilities, beyond the default pattern matching. Multiple models should be separated by commas.
+
+### `WHITE_WEBDAV_ENDPOINTS` (optional)
+
+You can use this option if you want to increase the number of webdav service addresses you are allowed to access, as required by the format：
+- Each address must be a complete endpoint 
+> `https://xxxx/yyy`
+- Multiple addresses are connected by ', '
+
+### `DEFAULT_INPUT_TEMPLATE` (optional)
+
+Customize the default template used to initialize the User Input Preprocessing configuration item in Settings.
+
+### `STABILITY_API_KEY` (optional)
+
+Stability API key.
+
+### `STABILITY_URL` (optional)
+
+Customize Stability API url.
+
+
+### `ENABLE_MCP` (optional)
+
+Enable MCP（Model Context Protocol）Feature
+
+
+## Requirements
+
+NodeJS >= 18, Docker >= 20
+
+## Development
+
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+
+Before starting development, you must create a new `.env.local` file at project root, and place your api key into it:
+
+```
+OPENAI_API_KEY=<your api key here>
+
+# if you are not able to access openai service, use this BASE_URL
+BASE_URL=https://chatgpt1.nextweb.fun/api/proxy
 ```
 
-### Lend Tokens
+### Local Development
 
-```typescript
-import { PublicKey } from "@solana/web3.js";
-
-const signature = await agent.lendAssets(
-  100 // amount of USDC to lend
-);
+```shell
+# 1. install nodejs and yarn first
+# 2. config local env vars in `.env.local`
+# 3. run
+yarn install
+yarn dev
 ```
 
-### Stake SOL
+## Deployment
 
-```typescript
-const signature = await agent.stake(
-  1 // amount in SOL to stake
-);
+
+### Docker (Recommended)
+
+```shell
+docker pull yidadaa/chatgpt-next-web
+
+docker run -d -p 3000:3000 \
+   -e OPENAI_API_KEY=sk-xxxx \
+   -e CODE=your-password \
+   yidadaa/chatgpt-next-web
 ```
 
-### Stake SOL on Solayer
+You can start service behind a proxy:
 
-```typescript
-const signature = await agent.restake(
-  1 // amount in SOL to stake
-);
-
+```shell
+docker run -d -p 3000:3000 \
+   -e OPENAI_API_KEY=sk-xxxx \
+   -e CODE=your-password \
+   -e PROXY_URL=http://localhost:7890 \
+   yidadaa/chatgpt-next-web
 ```
 
-### Send an SPL Token Airdrop via ZK Compression
+If your proxy needs password, use:
 
-```typescript
-import { PublicKey } from "@solana/web3.js";
-
-(async () => {
-  console.log(
-    "~Airdrop cost estimate:",
-    getAirdropCostEstimate(
-      1000, // recipients
-      30_000 // priority fee in lamports
-    )
-  );
-
-  const signature = await agent.sendCompressedAirdrop(
-    new PublicKey("JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"), // mint
-    42, // amount per recipient
-    [
-      new PublicKey("1nc1nerator11111111111111111111111111111111"),
-      // ... add more recipients
-    ],
-    30_000 // priority fee in lamports
-  );
-})();
+```shell
+-e PROXY_URL="http://127.0.0.1:7890 user pass"
 ```
 
-### Fetch Price Data from Pyth
+If enable MCP, use：
 
-```typescript
-
-const priceFeedID = await agent.getPythPriceFeedID("SOL");
-
-const price = await agent.getPythPrice(priceFeedID);
-
-console.log("Price of SOL/USD:", price);
+```
+docker run -d -p 3000:3000 \
+   -e OPENAI_API_KEY=sk-xxxx \
+   -e CODE=your-password \
+   -e ENABLE_MCP=true \
+   yidadaa/chatgpt-next-web
 ```
 
-### Open PERP Trade
+### Shell
 
-```typescript
-import { PublicKey } from "@solana/web3.js";
-
-const signature = await agent.openPerpTradeLong({
-  price: 300, // $300 SOL Max price
-  collateralAmount: 10, // 10 jitoSOL in
-  collateralMint: new PublicKey("J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"), // jitoSOL
-  leverage: 50000, // x5
-  tradeMint: new PublicKey("J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"), // jitoSOL
-  slippage: 0.3, // 0.3%
-});
+```shell
+bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
 ```
 
-### Close PERP Trade
+## Synchronizing Chat Records (UpStash)
 
-```typescript
-import { PublicKey } from "@solana/web3.js";
+| [简体中文](./docs/synchronise-chat-logs-cn.md) | [English](./docs/synchronise-chat-logs-en.md) | [Italiano](./docs/synchronise-chat-logs-es.md) | [日本語](./docs/synchronise-chat-logs-ja.md) | [한국어](./docs/synchronise-chat-logs-ko.md)
 
-const signature = await agent.closePerpTradeLong({
-  price: 200, // $200 SOL price
-  tradeMint: new PublicKey("J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"), // jitoSOL
-});
-```
+## Documentation
 
-### Close Empty Token Accounts
+> Please go to the [docs][./docs] directory for more documentation instructions.
 
-``` typescript
+- [Deploy with cloudflare (Deprecated)](./docs/cloudflare-pages-en.md)
+- [Frequent Ask Questions](./docs/faq-en.md)
+- [How to add a new translation](./docs/translation.md)
+- [How to use Vercel (No English)](./docs/vercel-cn.md)
+- [User Manual (Only Chinese, WIP)](./docs/user-manual-cn.md)
 
-const { signature } = await agent.closeEmptyTokenAccounts();
-```
 
-### Create a Drift account
 
-Create a drift account with an initial token deposit.
+## Translation
 
-```typescript
-const result = await agent.createDriftUserAccount()
-```
+If you want to add a new translation, read this [document](./docs/translation.md).
 
-### Create a Drift Vault
+## Donation
 
-Create a drift vault.
+[Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
 
-```typescript
-const signature = await agent.createDriftVault({
-  name: "my-drift-vault",
-  marketName: "USDC-SPOT",
-  redeemPeriod: 1, // in days
-  maxTokens: 100000, // in token units e.g 100000 USDC
-  minDepositAmount: 5, // in token units e.g 5 USDC
-  managementFee: 1, // 1%
-  profitShare: 10, // 10%
-  hurdleRate: 5, // 5%
-  permissioned: false, // public vault or whitelist
-})
-```
+## Special Thanks
 
-### Deposit into a Drift Vault
 
-Deposit tokens into a drift vault.
 
-```typescript
-const signature = await agent.depositIntoDriftVault(100, "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU")
-```
+### Contributors
 
-### Deposit into your Drift account
+<a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web" />
+</a>
 
-Deposit tokens into your drift account.
+## LICENSE
 
-```typescript
-const {txSig} = await agent.depositToDriftUserAccount(100, "USDC")
-```
-
-### Derive a Drift Vault address
-
-Derive a drift vault address.
-
-```typescript
-const vaultPublicKey = await agent.deriveDriftVaultAddress("my-drift-vault")
-```
-
-### Do you have a Drift account
-
-Check if agent has a drift account.
-
-```typescript
-const {hasAccount, account} = await agent.doesUserHaveDriftAccount()
-```
-
-### Get Drift account information
-
-Get drift account information.
-
-```typescript
-const accountInfo = await agent.driftUserAccountInfo()
-```
-
-### Request withdrawal from Drift vault
-
-Request withdrawal from drift vault.
-
-```typescript
-const signature = await agent.requestWithdrawalFromDriftVault(100, "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU")
-```
-
-### Carry out a perpetual trade using a Drift vault
-
-Open a perpertual trade using a drift vault that is delegated to you.
-
-```typescript
-const signature = await agent.tradeUsingDelegatedDriftVault({
-  vault: "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU",
-  amount: 500,
-  symbol: "SOL",
-  action: "long",
-  type: "limit",
-  price: 180 // Please long limit order at $180/SOL
-})
-```
-
-### Carry out a perpetual trade using your Drift account
-
-Open a perpertual trade using your drift account.
-
-```typescript
-const signature = await agent.tradeUsingDriftPerpAccount({
-  amount: 500,
-  symbol: "SOL",
-  action: "long",
-  type: "limit",
-  price: 180 // Please long limit order at $180/SOL
-})
-```
-
-### Update Drift vault parameters
-
-Update drift vault parameters.
-
-```typescript
-const signature = await agent.updateDriftVault({
-  name: "my-drift-vault",
-  marketName: "USDC-SPOT",
-  redeemPeriod: 1, // in days
-  maxTokens: 100000, // in token units e.g 100000 USDC
-  minDepositAmount: 5, // in token units e.g 5 USDC
-  managementFee: 1, // 1%
-  profitShare: 10, // 10%
-  hurdleRate: 5, // 5%
-  permissioned: false, // public vault or whitelist
-})
-```
-
-### Withdraw from Drift account
-
-Withdraw tokens from your drift account.
-
-```typescript
-const {txSig} = await agent.withdrawFromDriftAccount(100, "USDC")
-```
-
-### Borrow from Drift
-
-Borrow tokens from drift.
-
-```typescript
-const {txSig} = await agent.withdrawFromDriftAccount(1, "SOL", true)
-```
-
-### Repay Drift loan
-
-Repay a loan from drift.
-
-```typescript
-const {txSig} = await agent.depositToDriftUserAccount(1, "SOL", true)
-```
-
-### Withdraw from Drift vault
-
-Withdraw tokens from a drift vault after the redemption period has elapsed.
-
-```typescript
-const signature = await agent.withdrawFromDriftVault( "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU")
-```
-
-### Update the address a Drift vault is delegated to
-
-Update the address a drift vault is delegated to.
-
-```typescript
-const signature = await agent.updateDriftVaultDelegate("41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU", "new-address")
-```
-
-### Get Voltr Vault Position Values
-
-Get the current position values and total value of assets in a Voltr vault.
-
-```typescript
-const values = await agent.voltrGetPositionValues("7opUkqYtxmQRriZvwZkPcg6LqmGjAh1RSEsVrdsGDx5K")
-```
-
-### Deposit into Voltr Strategy
-
-Deposit assets into a specific strategy within a Voltr vault.
-
-```typescript
-const signature = await agent.voltrDepositStrategy(
-  new BN("1000000000"), // amount in base units (e.g., 1 USDC = 1000000)
-  "7opUkqYtxmQRriZvwZkPcg6LqmGjAh1RSEsVrdsGDx5K", // vault
-  "9ZQQYvr4x7AMqd6abVa1f5duGjti5wk1MHsX6hogPsLk"  // strategy
-)
-```
-
-### Withdraw from Voltr Strategy
-
-Withdraw assets from a specific strategy within a Voltr vault.
-
-```typescript
-const signature = await agent.voltrWithdrawStrategy(
-  new BN("1000000000"), // amount in base units (e.g., 1 USDC = 1000000)
-  "7opUkqYtxmQRriZvwZkPcg6LqmGjAh1RSEsVrdsGDx5K", // vault
-  "9ZQQYvr4x7AMqd6abVa1f5duGjti5wk1MHsX6hogPsLk"  // strategy
-)
-```
-
-### Get a Solana asset by its ID
-
-```typescript
-const asset = await agent.getAsset("41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU")
-```
-
-## Examples
-
-### LangGraph Multi-Agent System
-
-The repository includes an advanced example of building a multi-agent system using LangGraph and Solana Agent Kit. Located in `examples/agent-kit-langgraph`, this example demonstrates:
-
-- Multi-agent architecture using LangGraph's StateGraph
-- Specialized agents for different tasks:
-  - General purpose agent for basic queries
-  - Transfer/Swap agent for transaction operations
-  - Read agent for blockchain data queries
-  - Manager agent for routing and orchestration
-- Fully typed TypeScript implementation
-- Environment-based configuration
-
-
-## Dependencies
-
-The toolkit relies on several key Solana and Metaplex libraries:
-
-- @solana/web3.js
-- @solana/spl-token
-- @metaplex-foundation/digital-asset-standard-api
-- @metaplex-foundation/mpl-token-metadata
-- @metaplex-foundation/mpl-core
-- @metaplex-foundation/umi
-- @lightprotocol/compressed-token
-- @lightprotocol/stateless.js
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-Apache-2 License
-
-## Funding
-
-Support by using our Solana CA: 
-
-## Security
-
-This toolkit handles private keys and transactions. Always ensure you're using it in a secure environment and never share your private keys.
+[MIT](https://opensource.org/license/mit/)
