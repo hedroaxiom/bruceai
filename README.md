@@ -3,7 +3,10 @@
 <a href='https://x.com/bruceai_sol'>
   <img src="https://github.com/user-attachments/assets/b7046cc8-eaf3-489d-86d2-a56d724f6664" width="720" alt="icon"/>
 </a>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Bruce can help you with your image generation tasks. <a href="https://t.co/n5pWFb9dJ8">pic.twitter.com/n5pWFb9dJ8</a></p>&mdash; BRUCE (@BruceAI_SOL) <a href="https://twitter.com/BruceAI_SOL/status/1882397013238820901?ref_src=twsrc%5Etfw">January 23, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+![bruce_a](https://github.com/user-attachments/assets/490d1cad-b6a7-42a4-a6cc-bae2b7b31789)
+<img width="1017" alt="Screenshot 2025-01-28 at 6 28 06 PM" src="https://github.com/user-attachments/assets/0936c560-ec6e-4ea2-900c-48430cabd845" />
 
 
 <h1 align="center">Bruce AI (powered by ChatGPT)</h1>
