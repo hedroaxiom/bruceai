@@ -5,8 +5,6 @@
 </a>
 
 
-![bruce_a](https://github.com/user-attachments/assets/490d1cad-b6a7-42a4-a6cc-bae2b7b31789)
-<img width="1017" alt="Screenshot 2025-01-28 at 6 28 06 PM" src="https://github.com/user-attachments/assets/0936c560-ec6e-4ea2-900c-48430cabd845" />
 
 
 <h1 align="center">Bruce AI (powered by ChatGPT)</h1>
@@ -39,6 +37,9 @@ One-Click to get a well-designed cross-platform ChatGPT Telegram UI, with Claude
 > Before build, please set env ENABLE_MCP=true
 
 <img src="https://github.com/user-attachments/assets/d8851f40-4e36-4335-b1a4-ec1e11488c7e"/>
+![bruce_a](https://github.com/user-attachments/assets/490d1cad-b6a7-42a4-a6cc-bae2b7b31789)
+<img width="1017" alt="Screenshot 2025-01-28 at 6 28 06 PM" src="https://github.com/user-attachments/assets/0936c560-ec6e-4ea2-900c-48430cabd845" />
+
 
 
 ## Enterprise Edition
