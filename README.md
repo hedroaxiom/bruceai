@@ -53,14 +53,7 @@ Meeting Your Company's Privatization and Customization Deployment Requirements:
 - **Private Deployment**: Enterprise-level private deployment supporting various mainstream private cloud solutions, ensuring data security and privacy protection.
 - **Continuous Updates**: Ongoing updates and upgrades in cutting-edge capabilities like multimodal AI, ensuring consistent innovation and advancement.
 
-For enterprise inquiries, please contact: **business@bruceai.dev**
-
-## Screenshots
-
-![Settings](./docs/images/settings.png)
-
-![More](./docs/images/more.png)
-
+For enterprise inquiries, please contact: **business@agentbruce.xyz**
 
 ## Features
 
@@ -114,9 +107,6 @@ For enterprise inquiries, please contact: **business@bruceai.dev**
    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web), remember that `CODE` is your page password;
 3. Enjoy :)
 
-## FAQ
-
-[English > FAQ](./docs/faq-en.md)
 
 ## Keep Updated
 
@@ -134,9 +124,7 @@ We recommend that you follow the steps below to re-deploy:
 
 After forking the project, due to the limitations imposed by GitHub, you need to manually enable Workflows and Upstream Sync Action on the Actions page of the forked project. Once enabled, automatic updates will be scheduled every hour:
 
-![Automatic Updates](./docs/images/enable-actions.jpg)
 
-![Enable Automatic Updates](./docs/images/enable-actions-sync.jpg)
 
 ### Manually Updating Code
 
@@ -349,7 +337,6 @@ NodeJS >= 18, Docker >= 20
 ## Development
 
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
 Before starting development, you must create a new `.env.local` file at project root, and place your api key into it:
 
@@ -416,10 +403,6 @@ docker run -d -p 3000:3000 \
 bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
 ```
 
-## Synchronizing Chat Records (UpStash)
-
-| [简体中文](./docs/synchronise-chat-logs-cn.md) | [English](./docs/synchronise-chat-logs-en.md) | [Italiano](./docs/synchronise-chat-logs-es.md) | [日本語](./docs/synchronise-chat-logs-ja.md) | [한국어](./docs/synchronise-chat-logs-ko.md)
-
 ## Documentation
 
 > Please go to the [docs][./docs] directory for more documentation instructions.
@@ -436,9 +419,7 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 
 If you want to add a new translation, read this [document](./docs/translation.md).
 
-## Donation
 
-[Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
 
 ## Special Thanks
 
