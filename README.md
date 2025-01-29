@@ -38,7 +38,7 @@ One-Click to get a well-designed cross-platform ChatGPT Telegram UI, with Claude
 
 <img width="720" src="https://github.com/user-attachments/assets/490d1cad-b6a7-42a4-a6cc-bae2b7b31789"/>
 
-Launch the Telegram Bruce AI chatbot here: **[Bruce AI Image Generator](https://t.me/agentbruce_bot)**
+Launch the Telegram Bruce AI chatbot here: **[Bruce AI Chatbot](https://t.me/agentbruce_bot)**
 
 
 <img width="720" alt="Screenshot 2025-01-28 at 6 28 06 PM" src="https://github.com/user-attachments/assets/0936c560-ec6e-4ea2-900c-48430cabd845" />
